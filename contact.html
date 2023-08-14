@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .navbar {
+            width: 100vw;
+            height: 10vh;
+            background: #E4FF00;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .navbar-brand {
+            width: 40%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .navbar-item {
+            width: 60%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .list-item {
+            color: #000;
+
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            display: inline;
+            margin: 10px;
+        }
+
+        li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .container {
+            width: 100vw;
+            height: 90vh;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .text-title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .input-area {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #E4FF00;
+        }
+
+        form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background: unset;
+        }
+
+        .input {
+            width: 500px;
+            padding: 15px;
+            margin-top: 30px;
+            box-sizing: border-box;
+        }
+
+        .maps-area {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #E4FF00;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-brand">
+            <h3>Dean.</h3>
+        </div>
+        <div class="navbar-item">
+            <div class="list-item">
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="text-title">
+
+        </div>
+        <div class="input-area">
+            <form action="#" method="post">
+                <p style="font-size: 3em; font-weight: bold;">Contact Us</p>
+                <input type="text" class="input" placeholder="Name">
+                <input type="email" class="input" placeholder="Email">
+                <input type="number" class="input" placeholder="Phone Number">
+                <textarea class="input" rows="10" placeholder="Message"></textarea>
+
+                <div class="area-button">
+                    <!--belom selesai-->
+                    <input type="submit" class="input" value="Send">
+                </div>
+            </form>
+        </div>
+        <div class="maps-area">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.971549335205!2d107.03556067516465!3d-6.525276963792296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69bc6e5be3d9bd%3A0x6b9881dabd801476!2sSMP-SMK%20IDN%20Boarding%20School!5e0!3m2!1sen!2sid!4v1691739991756!5m2!1sen!2sid"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+</body>
+
+</html>
